@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Lars</Authors>
+    <Company>CopperBeach</Company>
+    <Product>Plural</Product>
+    <ApplicationIcon />
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.Entity.Design">
+      <HintPath>..\..\..\..\Downloads\System.Data.Entity.Design\System.Data.Entity.Design.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
