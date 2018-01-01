@@ -32,15 +32,15 @@ namespace PluralWeb
         {
 
             //----Pluralize words
-            for (int i = 1; i < 20; i++)
-            {
+           // for (int i = 1; i < 20; i++)
+         //   {
                 //Console.Write("Please type in a word that you would like pluralized... ");
                 string theWord = TextBox1.Text;
                 string plural = theWord.ToPlural();
                 // Console.WriteLine(theWord + " in plural form is " + theWord.ToPlural());
                 theWord = theWord + "  in plural form is " + plural;
                 TextBox1.Text = theWord;
-            }
+          //  }
            // Console.ReadLine();  //keeps console screen paused and displayed until user presses a key
 
         }
